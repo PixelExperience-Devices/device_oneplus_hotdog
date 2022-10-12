@@ -14,10 +14,18 @@
             0 - GLOBAL HBM
             1 - LOCAL HBM
     -->
-    <integer name="config_udfpsHbmType">0</integer>
+    <integer name="config_udfps_hbm_type">0</integer>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
+
+     <!-- Defines the actions shown in advanced reboot submenu -->
+    <string-array name="config_restartActionsList">
+        <item>restart</item>
+        <item>restart_recovery</item>
+        <item>restart_bootloader</item>
+        <item>restart_fastboot</item>
+     </string-array>
 
 </resources>
