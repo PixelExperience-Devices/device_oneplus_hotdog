@@ -18,7 +18,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 PRODUCT_NAME := aosp_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := HD1911
+PRODUCT_MODEL := HD1917
 PRODUCT_BRAND := OnePlus
 CUSTOM_DEVICE := OnePlus7TPro
 
